@@ -1,38 +1,484 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.right-nav{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  list-style: none;
+  font-size: 1.5rem;
+
+}
+/* ====================================Main================================ */
+.Main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height:100vh;
+}
+.male{ height:100vh;
+  position: relative;
+
+ 
+
+}
+.eleven{
+  position:absolute;
+  height:80vh;
+
+}
+.bold{
+  font-size: 3rem;
+  font-weight: 700;
+  width:27vw;
+}
+.rightpara{
+  font-size: 1.8rem;
+  font-weight: 400;
+  width:30vw;
+}
+/* =====================main-2============== */
+.main-two{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:5rem 2rem 20rem 2rem;
+}
+.fontsize{
+  font-size: 2rem;
+
+}
+.main-two .para{
+
+  font-size: 2rem;
+  font-weight: 800;
+  width:30vw;
+ 
+  
+}
+.twelve{
+  padding-left: 40rem;
+  position: relative;
+}
+.card{
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 10rem;
+  width: 50vw;
+  height:90vh;
+  padding: 1rem;
+ 
+}
+.card .qustn{
+  color:blue;
+  font-size: 1rem;
+
+}
+.card .card2ndpara{
+  font-size: 2rem;
+  font-weight: 600;
+  color:blue;
+}
+.black{
+  color:black;
+}
+.container{
+  display:flex;
+  gap:2rem;
+  align-items: center;
+  
+ 
+}
+.box{
+  border: 1px solid black;
+  height:3rem;
+  width:7rem;
+  border-radius: 10px;
   text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 5px  5px grey;
+}
+.card .metals{
+  padding-top:3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+}
+.paragraph1{
+  display:flex;
+  align-items: center;
+  gap:2rem;
+}
+ .border{
+  border: 1px  black;
+  border-style: dashed;
+  height:3.2rem;
+  width:8rem;
+  text-align: center;
+  color: grey;
+  padding-top: 1rem;
+}
+.paragraph2{
+  padding-top :3rem;
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  color: grey;
+}
+.cardLast{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.cardLast .greybtn{
+  border-radius: 5px;
+  box-shadow: 2px 2px grey;
+  height:2rem;
+  width:6rem;
+  border-style: none;
+
+}
+.cardLast .bluebtn{
+  border-radius: 5px;
+  height:2rem;
+  width:6rem;
+  border-style: none;
+  background-color: lightskyblue;
+  color:white;
+  z-index: 1;
+
+}
+/* ============================main3=========================== */
+
+.main3{
+  padding:3rem 2rem 2rem 5rem;
+  display: flex;
+  align-items: center;
+ gap:1rem;
+  margin-top: 2rem;
+  background-repeat:no-repeat;
+}
+.moonpara{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap:1rem
+  
+  
+}
+.moonpara img{
+  width:5%;
+
+}
+.moonpara p{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.leftMain2 .workBook{
+  font-size: 1.3rem;
+  font-weight: 500;
+  width:35vw;
+  padding: 2rem;
+
+}
+.rightmain2{
+  display: flex;
+  gap:1rem;
+
+}
+.rightmain2 .card1{
+  border-radius: 10px;
+  border: 1px solid lightskyblue;
+  height:60vh;
+  box-shadow: 5px 5px lightskyblue;
+ 
+}
+.card1 img{
+  padding: 1rem 5rem 1rem 5rem;
+  width:17vw;
+}
+ .crdHeading{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+ .crdpara{
+  padding-left: 1rem;
+  font-weight: 500;
+}
+.card2{
+  margin-top: 10rem;
+  border-radius: 10px;
+  border: 1px solid lightskyblue;
+  height:60vh;
+  box-shadow: 5px 5px lightskyblue;
+ 
+
+
+}
+.card2 img{
+  padding: 1rem 5rem 1rem 2rem;
+  width:17vw;
+}
+/* =======================================main4==================== */
+
+.main4{
+  
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+ 
+  background-repeat:no-repeat;
+  margin-left: 2rem;
+}
+.leftmain4{
+  display: flex;
+  align-items: center;
+
+}
+.image2{
+  display: flex;
+  flex-direction: column;
+}
+.rightmain4 .rightpara{
+  display: flex;
+  align-items: center;
+  gap:5px;
+  
+
+
+}
+.rightmain4 img{
+  width:4vw;
+}
+.rightmain4 .moonpara{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.discover{
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 50vw;
+}
+.flex{
+  display: flex;
+  gap:3rem;
+  align-items:center ;
+}
+.brdr{
+  width:6rem;
+  border-radius: 10px;
+  height:3rem;
+  border: 1px solid black;
+  box-shadow: 3px 3px grey;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ==========================================main5================================== */
+.main5{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap:4rem;
+  background-repeat:no-repeat;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fifthHeading{
+  font-size: 2rem;
+  font-weight: 700;
 }
+.bckgrnd-green{
+  border: 1px solid black;
+  background: #00FF00;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  height:30vh;
+  border-radius: 10px;
+  width: 70vw;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+.bckgrnd-blue{
+  margin-left: 10rem;
+  display: flex;
+  align-items: center;
+  background: lightskyblue;
+  border-style: none;
+  border-radius: 10px;
+  height:30vh;
+  width: 70vw;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 2rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+/* ============================main6================================= */
+.mainSix{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  padding:2rem;
+}
+.About{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.Radhika{
+  font-size:2rem ;
+  font-weight:500 ;
+}
+/* =================================Mian7===================================== */
+
+.mainSeven{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2rem;
+}
+.mainSeven .svnthpara{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.lstbtn{
+  width:40vw;
+  height:10vh;
+  border-radius: 10px;
+  background-color: rgb(45, 151, 217);
+  border-style: none;
   color: white;
-}
+  font-weight: 500;
+  font-size: 1.5rem;
 
-.App-link {
-  color: #61dafb;
 }
+/* =============================Footer====================== */
+.footer{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding:2rem;
+  background-color: rgb(18, 177, 79);
+  color:white;
+  gap:2rem;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap:2rem;
+  
+}
+.iconn{
+  height:10vh;
+  width:5vw;
+  color: aliceblue;
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.listss{
+  font-size: 1rem;
+  font-weight: 500;
+ 
+}
+.footerlist{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+@media (max-width: 780px) {
+  .navbar{
+    
+    width: 270vw;
   }
-  to {
-    transform: rotate(360deg);
+  .Main{
+    
+    gap:5rem;
+    padding-left: 2rem;
+    width:270vw;
   }
+  .main-two{
+    width:215vw;
+    padding-left: 1rem;
+  }
+  .main-two .para{
+    width:150vw;
+  }
+  .card{
+    width:150vw;
+  }
+  .main3{
+    width:270vw;
+    padding-top: 10rem;
+  }
+  .main4{
+    width:250vw;
+    
+    margin-top: 5rem;
+    height: 100vh;
+  }
+  .discover{
+    width: 100vw;
+  }
+  .leftmain4{
+    width: 100vw;
+   
+   
+  }
+  .rightmain4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+  }
+  .rightmain4 .moonpara {
+    text-align: center;
+   
+  }
+  .rightmain4 img{
+    width:15vw;
+
+  }
+  .main5{
+    width:270vw;
+    margin-top: 3rem;
+   
+  }
+  .bckgrnd-green{
+  width: 200vw;
+}
+.bckgrnd-blue{
+  width:200vw;
+}
+.mainSix{
+  width:250vw;
+}
+.mainSeven{
+  width:250vw;
+}
+.footer{
+  width:270vw;
+}
 }
