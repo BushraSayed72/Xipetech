@@ -10,6 +10,7 @@ import Main4 from './Main4'
 import Main5 from './Main5'
 import Main6 from './Main6'
 import Footer from './Footer'
+import Dots from './Dots'
 
 function Main() {
   return (
@@ -30,6 +31,8 @@ function Main() {
       
     </div>
     <div className='main-two '>
+    <div className='whiteCircle'></div>
+    <div className='blueeCircle'></div>
         <p className=' para  '>Self-driven learning has never been so easy </p>
             <img className='twelve' src={twelve} alt=''/>
 
@@ -38,22 +41,31 @@ function Main() {
                 <p className='qustn'>Question 4</p>
                  <p className=' card2ndpara '> Drag and drop to fill in the blanks. <AiFillQuestionCircle   className='black'/></p>
                <div className=' container'>
-                <div className= 'box' >mobile</div>
-                <div className='box'>voltage</div>
-                <div className='box'>delocalised</div>
+                <div className= 'box' > <p>mobile</p>
+                <div className='dotDiv'><Dots/></div>
+               
+                
+                </div>
+                <div className='box'><p>voltage</p>
+                <div className='dotDiv'><Dots/></div>
+                </div>
+                
+                <div className='boxes'><p>delocalised</p>
+                <div className='dotDiv'><Dots/></div>
+                </div>
                </div>
                <p className='metals'> Explain why metals are good Conductor of electricity.</p>
 
                <div className='paragraph1'>
                 <p>Metal have </p>
-                <div className='border'>?</div>
+                <div className='border'> <span>?</span></div>
                 <p>electrons that are highly </p>
-                <div className='border'>?</div>
+                <div className='border'><span>?</span></div>
                </div>
 
-               <div className='paragraph2'>
+               <div className='paragraph1'>
                 <p>and can  move through the metal scructure in response to applied </p>
-                <div className='border'>?</div>
+                <div className='border'><span>?</span></div>
                </div>
 
                <div className='cardLast'>

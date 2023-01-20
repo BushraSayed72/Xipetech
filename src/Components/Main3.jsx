@@ -1,12 +1,15 @@
 import React from 'react'
 import image17 from '../Images/image 17.png'
-import group7211 from '../Images/Group 7211.png'
-import bluemoon from '../Images/bluemoon.jpeg'
+import bluecircle from '../Images/bluecircle.png'
+
 
 function Main3() {
   return (
-    <div className='main4'  style={{ backgroundImage: `url(${group7211})` }}>
+    <div className='main4'  >
+     <img className='bcircle' src={bluecircle}
+     alt=''/>
     <div className='leftmain4'>
+   
         <div className='image1'>
             <img src={image17} alt=''/>
         </div>
@@ -19,7 +22,8 @@ function Main3() {
 
     <div className='rightmain4'>
     <div className='rightpara'>
-        <img src={bluemoon} alt=''/>
+    {/* <div className='whiteCircle'></div>
+    <div className='blueeCircle'></div> */}
         <p className='moonpara'>Workbook for your studies</p>
 
     </div>

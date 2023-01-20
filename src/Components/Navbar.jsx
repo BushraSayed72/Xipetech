@@ -1,11 +1,16 @@
 import React from 'react'
 import { FaShoppingCart  } from "react-icons/fa";
+import vector6 from '../Images/Vector (6).png';
 
 
 function Navbar() {
   return (
     <div className='navbar'>
-   <h1> We are all <br/> Elemental</h1>
+    <div className='greenFlat'></div>
+    <div className='greenCircle'></div>
+    <div className='blueCircle'></div>
+   <img src={vector6} className='heading'/> 
+   <div className='halfsemicircle'></div>
     
     <div >
         <ul className='right-nav' >

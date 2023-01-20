@@ -8,14 +8,17 @@ function Footer() {
     <div className='footer'>
         <div className='icons'>
         
-
-        <FaInstagram className='iconn'/>
-        
+       <div className='iconDiv'>
+       <FaInstagram className='iconn'/>
+       </div>
+       
+       <div className='iconDiv'>
         <FaFacebookF className='iconn'/>
+        </div>
 
        
+        <div className='iconDiv'><FaTwitter className='iconn'/></div>
         
-            <FaTwitter className='iconn'/>
         
         </div>
         <p className='About'>
@@ -27,8 +30,10 @@ function Footer() {
             <li> Contact us</li>
             <li>Terms and conditions</li>
             <li>Privacy policy</li>
-            <p className=''>Design and Build by Bushra Sayed</p>
+            <li>Design and Build by Bushra Sayed</li>
+           
         </ul>
+       
         
             
         </div>

@@ -1,15 +1,17 @@
 import React from 'react'
 import background2 from '../Images/Vector (1).png'
-import moon from '../Images/moon.jpg'
-import fire from '../Images/fire.jpeg'
+import fire from '../Images/Vector (7).png'
 import clock from '../Images/clock.jpeg'
+import orangecircle from '../Images/orangecircle.jpeg'
+import flatCircle from '../Images/orangeflat.png'
 
 function Main2() {
   return (
     <div className='main3' style={{ backgroundImage: `url(${background2})` }}>
     <div className='leftMain2'>
     <div className='moonpara'>
-        <img src={moon} alt='' />
+    <div className='white-Circle'></div>
+    <div className='orange-Circle'></div>
         <p>Study the way you like it</p>
        
         </div>
@@ -17,6 +19,9 @@ function Main2() {
         <p className='workBook'>Choose between practice and earn exam modes to complete your workbooks.</p>
     </div>
     <div className='rightmain2'>
+    {/* <img className='orngeCrcle' src={orangecircle} alt=''/>
+    <img className='flatCrcle'src={flatCircle} alt=''/>
+     */}
         <div className='card1'>
             <img src={fire} alt='fire'/>
             <p className='crdHeading'>Practice</p>
