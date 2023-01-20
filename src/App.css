@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   
-
+  font-family: 'DM Sans', sans-serif;
 }
 .navbar{
   height: 108px;
@@ -128,9 +128,11 @@ color: #111111;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height:100vh;
+  height:100%;
   padding: 2rem;
- 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .male{ 
   position: relative;
@@ -182,7 +184,8 @@ color: #111111;
   display: flex;
   flex-direction: column;
   align-items:center;
-  padding:5rem 2rem 20rem 2rem;
+  padding:5rem  2rem;
+  position: relative;
 }
 .whiteCircle{
   position: relative;
@@ -208,17 +211,19 @@ border-radius: 1000px;
 
 }
 .main-two .para{
-position: absolute;
   font-size: 2rem;
   font-weight: 800;
-  width:30vw;
- 
-  
+  width: 30vw;
+  margin-top: -45px;
+  /* text-align: left; */
 }
 .twelve{
-  padding-left: 47rem;
-  position: relative;
-  padding-top: 2rem;
+  /* padding-left: 47rem; */
+  position: absolute;
+  /* padding-top: 2rem; */
+  width: 32vw;
+  top: 185px;
+  right: 75px;
 }
 .card{
  
@@ -232,10 +237,10 @@ position: absolute;
   padding: 24px;
   gap: 24px;
   
-  position: absolute;
-  width: 710px;
-  height: 510px;
- margin-top: 10rem;
+  /* position: absolute; */
+  width: 60vw;
+  /* height: 510px; */
+ margin-top: 2rem;
   /* White */
   
   background: #FEFEFE;
@@ -445,9 +450,9 @@ color: #8A8A8A;
 .cardLast{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   
-  gap:26rem;
+  width: -webkit-fill-available;
 }
 .cardLast .greybtn{
   border-radius: 8px;
@@ -830,11 +835,15 @@ font-size: 16px;
 z-index:50;
 }
 .imgblue{
+
   position: absolute;
- margin-left:54rem ;
- margin-top: -12rem;
+ 
+  right:-2px;
+left:59rem;
+top:3030px !important;
  z-index:1;
 }
+ 
 /* ============================main6================================= */
 .mainSix{
   display: flex;
@@ -971,7 +980,7 @@ justify-content: center;
 
 border: 2px solid #FEFEFE;
 }
-@media (max-width: 780px) {
+/* @media (max-width: 780px) {
   .navbar{
     
     width: 270vw;
@@ -1045,4 +1054,137 @@ border: 2px solid #FEFEFE;
 .footer{
   width:270vw;
 }
+} */
+#navbarSupportedContent {
+  flex-grow: 0 !important;
+}
+@media (max-width: 991px) {
+  #navbarSupportedContent {
+    z-index: 99999;
+    background: aliceblue;
+  }
+  body {
+    text-align: center;
+  }
+  .Main {
+    flex-direction: column;
+  }
+  .main-two .para  {
+    width: 44vw;
+    text-align: left;
+  }
+  .twelve {
+    top: 185px;
+    right: 52px;
+  }
+  .rightDiv {
+    padding: 60px 0;
+  }
+  .rightpara {
+    width: 380px;
+    margin: auto;
+  }
+  .card {
+    overflow-x: scroll;
+  }
+
+  .main3 {
+    flex-direction: column;
+    background-position: top;
+  }
+
+  .main4 {
+    flex-direction: column;
+  }
+  
+  .fifthHeading {
+    width: auto;
+  }
+  .bckgrnd-green,
+  .bckgrnd-blue {
+    margin-left: 0;
+    width: auto;
+    height: auto;
+  }
+  .limeContainer {
+    position: relative;
+  }
+  .imggreen {
+    left: -83px;
+    bottom: -45px;
+  }
+  .imgblue{
+   
+   
+    display: none;}
+
+  .About,
+  .svnthpara,
+  .lstbtn,
+  .male,
+  .bold,
+  .rightpara,
+  .Radhika {
+    width: auto !important;
+    height: auto !important;
+  }
+  .About {
+    margin-bottom: 0;
+  }
+
+  .eleven {
+    width: -webkit-fill-available;
+    height: auto;
+  }
+  .male {
+    margin-left: 0;
+  }
+  
+  .footerlist {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .footerlist li {
+    margin-bottom: 10px;
+  }
+
+
+  .mainSix {
+    flex-direction: column;
+  }
+  .mainSix img {
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 480px) {
+  .bckgrnd-green,
+  .bckgrnd-blue {
+    flex-direction: column;
+  }
+.rightmain2 {
+  flex-direction: column;
+}
+  .rightmain2 .card1 {
+    position: relative;
+  }
+  .rightmain2 .card2 {
+    margin: 0;
+  }
+  
+  .leftmain4 {
+    flex-direction: column;
+  }
+  .rightmain4 {
+    margin-top: 73px;
+    width: -webkit-fill-available;
+  }
+  .discover,
+  .moonpara{
+    width: auto !important;
+    height: auto !important;
+    margin-top: 80px;
+  }
 }
