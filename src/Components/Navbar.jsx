@@ -19,7 +19,7 @@ function Navbar() {
             <li className='text-primary'>My workbooks</li>
             <button className="btn btn-light">Login</button>
             <button  className="btn btn-primary">Sign up</button>
-            <p><FaShoppingCart/></p>
+            <p><FaShoppingCart className='nav-icon'/></p>
         </ul>
     </div>
       

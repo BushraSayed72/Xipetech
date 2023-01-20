@@ -13,6 +13,19 @@ display:flex;
   justify-content: space-between;
  padding: 20px;
 }
+.btn{
+  /* Button text */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+
+/* Black */
+
+
+}
 .greenCircle{
   position: absolute;
 height:27px;
@@ -104,6 +117,11 @@ line-height: 21px;
 
 color: #1E90FF;
 
+}
+.nav-icon{
+
+
+color: #111111;
 }
 /* ====================================Main================================ */
 .Main{
